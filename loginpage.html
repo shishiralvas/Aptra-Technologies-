@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Candidate Login Form</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+<body style="background-image:linear-gradient(to bottom right, hotpink , blue);background-size: cover;height: 100%;align-content: center; font-family: cursive;">	
+	<div class="limiter">
+		<div class="container-login" style="padding-left: 25%;"> 
+			<br><br><br><br><br><br><div class="wrap-login p-l-55 p-r-55 p-t-65 p-b-54" style="background-color: white; height: 55%;width: 53%; position: absolute ;border:5px;border-radius:10px;">
+				<form name="my_form" class="login-form validate-form" action="Change.php" onsubmit = "return validate()"  method="POST">
+					<span class="login-form-title p-b-49">
+						<h1>	<center style="color:black;">Candidate Login</center></h1>
+					</span><br><br>
+					<div class="wrap-input validate-input m-b-23" data-validate = "Username is required">
+					<b><span class="label-input" style="padding-left: 15%;color: darkslategray;">Username</span><br></b>
+						<center><input class="input" type="text" name="username" placeholder="Type in your username" style="color: grey;width: 70%;height: 25px;">
+						</center><span class="focus-input" data-symbol="&#xf206;""></span>
+					</div><br>
+					<div class="wrap-input validate-input" data-validate="Password is required">
+						<b><span class="label-input" style="padding-left: 15%;color: darkslategray;">Password</span><br></b>
+						<center><input class="input" type="password" name="pass" placeholder="Type in your password" style="color: grey; width: 70%;height: 25px;">
+						</center><span class="focus-input" data-symbol="&#xf190;"></span>
+					</div>	
+					<div class="text-right p-t-8 p-b-31" style="padding-left: 69%;">
+						<a href="#">
+							Forgot password?
+						</a>
+					</div>
+					<br><br>
+
+					<div class="container-login-form-button">
+						<div class="wrap-login-form-button">
+							<center>
+							<button class="login-form-button" onclick="validate()"  style="background-image:linear-gradient(to bottom right, hotpink , blue);color: whitesmoke;height: 55px;width:300px;font-family: cursive; border:5px;border-radius:50px;">
+								<h3 style="letter-spacing: 2px;">Login</h3>
+							</button>
+						
+							<button class="login-form-button1" onclick="validate()"  style="background-image: linear-gradient(to bottom right, hotpink , blue);color:whitesmoke;height: 55px;width:300px;font-family: cursive; border:5px;border-radius:50px;">
+								<h3 style="letter-spacing: 2px;">Sign Up</h3>
+							</button></center>
+						</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="dropDownSelect1"></div>
+<!--===============================================================================================-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+<!--===============================================================================================-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!--===============================================================================================-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+</body>
+</html>

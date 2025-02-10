@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>REGISTRATION PAGE</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="RegPage/fonts/linearicons/style.css">
+		<link rel="stylesheet" href="RegPage/css/style.css">
+	</head>
+
+	<body>
+		
+ 
+		<div class="wrapper">
+			<div class="inner">
+				
+				<form name="f1" onsubmit="return validate()" method="POST" action="user1.php">
+					
+					<h3>Register New Account</h3>
+					<br><br>
+					<div class="form-holder">
+						<label for="username">Candidate name:</label>
+						<input type="text" id="Candidate" name="Candidate" class="form-control" placeholder="">
+					</div>
+					<div class="form-holder">
+						<label style="color: gray">Gender:</label> &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp
+						<input type="radio" name="gender" id="gender" value="m"> Male &nbsp &nbsp </input><input type="radio" name="gender" id="gender" value="f"> Female &nbsp &nbsp</input> <input type="radio" name="gender" id="gender" value="o"> Others	</input>				
+					</div>
+		
+					
+					<hr>
+					<div class="form-holder">
+						<label for="age">Age:</label>
+						<input type="number" id="age" name="age" class="form-control" placeholder="">
+					</div>
+					<div class="form-holder">
+						
+						<label for="email">Mail Id :</label>
+						<input type="email" id="email" name="email" class="form-control" placeholder="">
+					</div>
+					<div class="form-holder">
+						
+						<label for="phone">Phone Number :</label>
+						<input type="text" id="phone" name="phone" class="form-control" placeholder="">
+					</div>
+					<div class="form-holder">
+						
+						<label for="applied">Applied For :</label>
+						<input type="text" id="applied" name="applied" class="form-control" placeholder="">
+					</div>
+					<div class="form-holder">
+						
+						<label for="college">College Name :</label>
+						<input type="text" id="college" name="college" class="form-control" placeholder="">
+					</div>
+					<div class="form-holder">
+						
+						<label for="address">Address:</label>&nbsp &nbsp  &nbsp &nbsp &nbsp&nbsp&nbsp
+						<textarea id="address" name="address" rows="4" cols="70" > </textarea>
+					</div>
+					
+				<!--	<div class="form-holder">
+						<span class="lnr lnr-lock"></span> 
+						<input type="password" id="pass" name="pass" class="form-control" placeholder="Password" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+					</div>
+					<div class="form-holder">
+						<span class="lnr lnr-lock"></span>
+						<input type="password" id="xpass" name="xpass" class="form-control" placeholder="Confirm Password">
+					</div>
+					
+					<br>
+					<p style="font-family: cursive;">
+						<input type="checkbox"  >Remember Me
+						<input type="checkbox"  >Subscribe to Newsletter
+					</p>-->
+					<button>
+						<span>Register</span>
+					</button><br><br><br>
+					
+				</form>
+				<br>
+				</div>
+			
+		</div>
+		
+		<script src="RegPage/js/main.js"></script>
+	</body>
+</html>
